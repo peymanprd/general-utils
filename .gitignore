@@ -1,5 +1,9 @@
+# dev/build outputs
+dist
+
 # Node dependencies
 node_modules
 
 # Other
+tsconfig.json
 .prettierrc

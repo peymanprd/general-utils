@@ -1,4 +1,4 @@
-import { useTimer } from './timer'
+import { useTimer } from './utils/timer'
 
 export default {
   useTimer

@@ -18,11 +18,13 @@ export const useTimer = (
   function start() {
     timer = setInterval(() => {
       if (mode === 'reverse') {
-        if (timeLeft > 0) timeLeft -= interval
-        else clearInterval(timer)
+        if (timeLeft > 0) {
+          timeLeft -= interval
+        } else clearInterval(timer)
       } else {
-        if (timeLeft < duration) timeLeft += interval
-        else clearInterval(timer)
+        if (timeLeft < duration) {
+          timeLeft += interval
+        } else clearInterval(timer)
       }
     }, interval)
   }
